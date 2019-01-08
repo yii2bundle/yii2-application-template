@@ -18,6 +18,7 @@ return [
     'directory' => 'Путь',
     'hash' => 'Хэш',
     'size' => 'Размер',
+    'file' => 'Файл',
 	
 	'go_to_backend' => 'В админку',
 	'go_to_frontend' => 'На сайт',
