@@ -4,6 +4,7 @@ namespace yii2lab\applicationTemplate\common\assets\main;
 
 use Yii;
 use yii\web\AssetBundle;
+use yii2lab\app\domain\helpers\EnvService;
 use yii2lab\rest\domain\helpers\ApiVersionConfig;
 
 class ScriptAsset extends AssetBundle
@@ -23,8 +24,8 @@ class ScriptAsset extends AssetBundle
 	}
 	
 	private function generateConfigToJs() {
-        $config['env']['mode'] = env('mode');
-        $config['env']['url'] = env('url');
+        $config['env']['mode'] = EnvService::get('mode');
+        $config['env']['url'] = EnvService::get('url');
         $config['api']['defaultVersion'] = ApiVersionConfig::defaultApiVersionSting();
         Yii::$app->view->registerJsVar('app', $config);
 	}
