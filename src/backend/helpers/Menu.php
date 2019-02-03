@@ -3,7 +3,7 @@
 namespace yii2lab\applicationTemplate\backend\helpers;
 
 use yii2lab\applicationTemplate\common\enums\ApplicationPermissionEnum;
-use yii2lab\extension\menu\interfaces\MenuInterface;
+use yii2rails\extension\menu\interfaces\MenuInterface;
 
 class Menu implements MenuInterface {
 	

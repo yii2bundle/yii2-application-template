@@ -1,9 +1,9 @@
 <?php
 
-use yii2lab\extension\menu\helpers\MenuHelper;
-use yii2lab\extension\widget\RequestRunTime;
-use yii2lab\extension\common\helpers\ModuleHelper;
-use yii2lab\extension\web\enums\HtmlEnum;
+use yii2rails\extension\menu\helpers\MenuHelper;
+use yii2rails\extension\widget\RequestRunTime;
+use yii2rails\extension\common\helpers\ModuleHelper;
+use yii2rails\extension\web\enums\HtmlEnum;
 use yii2module\article\widgets\PostList;
 use yii2module\lang\widgets\LangSelector;
 

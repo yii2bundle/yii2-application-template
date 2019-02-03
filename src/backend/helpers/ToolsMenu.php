@@ -2,7 +2,7 @@
 
 namespace yii2lab\applicationTemplate\backend\helpers;
 
-use yii2lab\extension\menu\interfaces\MenuInterface;
+use yii2rails\extension\menu\interfaces\MenuInterface;
 
 class ToolsMenu implements MenuInterface {
 	
