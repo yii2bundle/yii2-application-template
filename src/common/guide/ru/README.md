@@ -10,3 +10,4 @@
 * [Установка (краткая статья)](install-short.md)
 * [Установка](install.md)
 * [Хосты](host.md)
+* [Деплой](deploy.md)
