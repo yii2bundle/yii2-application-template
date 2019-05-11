@@ -7,7 +7,6 @@ use yii2rails\extension\yii\helpers\Html;
 use yii2module\profile\widget\Avatar;
 
 /* @var $this yii\web\View */
-/* @var $identity \yii2module\account\domain\v2\entities\LoginEntity */
 
 $identity = Yii::$app->user->identity;
 
