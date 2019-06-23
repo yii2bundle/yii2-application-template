@@ -12,8 +12,8 @@ class Menu implements MenuInterface {
 			'label' => ['admin', 'app'],
 			'icon' => 'square-o',
 			'items' => [
-				'yii2module\offline\admin\helpers\Menu',
-				'yii2module\cleaner\admin\helpers\Menu',
+				'yii2tool\offline\admin\helpers\Menu',
+				'yii2tool\cleaner\admin\helpers\Menu',
 				'yii2module\lang\module\helpers\Menu',
 				[
 					'label' => ['admin', 'logreader'],
@@ -22,7 +22,7 @@ class Menu implements MenuInterface {
 					'module' => 'logreader',
 					'access' => ApplicationPermissionEnum::LOGREADER_MANAGE,
 				],
-				'yii2lab\init\admin\helpers\Menu',
+				'yii2tool\init\admin\helpers\Menu',
 			],
 		];
 	}
