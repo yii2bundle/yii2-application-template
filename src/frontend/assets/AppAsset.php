@@ -15,7 +15,7 @@ class AppAsset extends AssetBundle {
 	];
 	public $depends = [
 		'yii2lab\applicationTemplate\common\assets\main\MainAsset',
-		'yii2lab\ubuntu_font\assets\UbuntuAsset',
+		//'yii2lab\ubuntu_font\assets\UbuntuAsset',
 		'yii\bootstrap\BootstrapAsset',
 		'yii\bootstrap\BootstrapThemeAsset',
 	];
