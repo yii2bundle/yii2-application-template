@@ -7,21 +7,21 @@
 
 * Точки входа `index.php` стали более чистыми и гибкими
 * Конфигурация стала удобнее и проще
-* [Структуру файлов конфигураций можно легко кастомизировать](http://demo.yii/guide/yii2lab.yii2-app/config)
-* [Инициализация проекта стала более гибкой](http://demo.yii/guide/yii2lab.yii2-init)
-* [Вместо модели (**M**) используется парадигма *Domain-Driven Design* (**DDD**)](https://github.com/yii2lab/yii2-domain/blob/master/guide/ru/README.md)
+* [Структуру файлов конфигураций можно легко кастомизировать](https://github.com/yii2rails/yii2-app/blob/master/guide/ru/config.md)
+* [Инициализация проекта стала более гибкой](https://github.com/yii2bundle/yii2-init/blob/master/guide/ru/init.md)
+* [Вместо модели (**M**) используется парадигма *Domain-Driven Design* (**DDD**)](https://github.com/yii2rails/yii2-domain/blob/master/guide/ru/README.md)
 * Разработан каркас админки
 * Разработаны необходимые утилиты
-* [Стандартизирован процесс сборки конфигов и запуска приложения](https://github.com/yii2lab/yii2-app/blob/master/guide/ru/README.md)
+* [Стандартизирован процесс сборки конфигов и запуска приложения](https://github.com/yii2rails/yii2-app/blob/master/guide/ru/README.md)
 * Стандартизирован процесс разработки и тестирования **REST API**
-* [Стандартизирован процесс создания сторонних компонентов (**composer**-пакетов)](http://demo.yii/guide/yii2module.yii2-vendor)
+* [Стандартизирован процесс создания сторонних компонентов (**composer**-пакетов)](https://github.com/yii2tool/yii2-vendor/blob/master/guide/ru/README.md)
 * Стандартизирован процесс ведения документации
 * Поддержка версионирования **доменных сущностей** и **REST API**
-* [http://demo.yii/guide/yii2module.yii2-lang](Поддержка мультиязычности)
-* [Гостевой режим](https://github.com/yii2lab/yii2-app/blob/master/guide/ru/guest-mode.md)
+* [Поддержка мультиязычности](https://github.com/yii2bundle/yii2-lang/blob/master/guide/ru/README.md)
+* [Гостевой режим](https://github.com/yii2guide/yii2-app/blob/master/guide/ru/guest-mode.md)
 * Вся системная логика и часто используемая бизнес логика перенесена в зависимости
 * Чистый шаблон приложения имеет примерно *90%* конфигов и данных, и *10%*  рабочего кода
-* [Есть возможность прозрачно делить проект на микросервисы](https://github.com/yii2lab/yii2-domain/blob/master/guide/ru/multi-server-design.md)
+* [Есть возможность прозрачно делить проект на микросервисы](https://github.com/yii2rails/yii2-domain/blob/master/guide/ru/multi-server-design.md)
 * Работают "*из коробки*":
 	* Пользователи
 	* RBAC
