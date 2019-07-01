@@ -4,7 +4,9 @@ return [
 	'main_page' => 'Главная страница',
 	
 	'documentation' => 'Документация',
-	
+
+    'unique_already_exists' => 'Запись уже существует',
+    'not_found_relation' => 'Связанная запись не найдена',
 	'not_found_collection' => 'Не найдено ни одной записи',
 	
 	'error' => 'Ошибка',
