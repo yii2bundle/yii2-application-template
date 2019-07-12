@@ -16,4 +16,7 @@ class ApplicationPermissionEnum extends BaseEnum
     // Доступ в админ панель
     const BACKEND_ALL = 'oBackendAll';
 
+    // Управление пользователями
+    const ACCOUNT_MANAGE = 'oAccountManage';
+
 }
