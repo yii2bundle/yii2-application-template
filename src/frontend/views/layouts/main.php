@@ -4,9 +4,9 @@
 /* @var $content string */
 
 use yii2rails\extension\web\helpers\Page;
-use yii2lab\navigation\domain\widgets\Breadcrumbs;
+use yii2bundle\navigation\domain\widgets\Breadcrumbs;
 use yii2lab\applicationTemplate\frontend\assets\AppAsset;
-use yii2lab\navigation\domain\widgets\Alert;
+use yii2bundle\navigation\domain\widgets\Alert;
 
 AppAsset::register($this);
 ?>

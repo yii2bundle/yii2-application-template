@@ -14,7 +14,7 @@ class Menu implements MenuInterface {
 			'items' => [
 				'yii2tool\offline\admin\helpers\Menu',
 				'yii2tool\cleaner\admin\helpers\Menu',
-				'yii2module\lang\module\helpers\Menu',
+				'yii2bundle\lang\module\helpers\Menu',
 				[
 					'label' => ['admin', 'logreader'],
 					//'icon' => '',

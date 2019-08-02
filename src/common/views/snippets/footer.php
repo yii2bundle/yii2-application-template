@@ -5,7 +5,7 @@ use yii2rails\extension\widget\RequestRunTime;
 use yii2rails\extension\common\helpers\ModuleHelper;
 use yii2rails\extension\web\enums\HtmlEnum;
 use yii2bundle\article\widgets\PostList;
-use yii2module\lang\widgets\LangSelector;
+use yii2bundle\lang\widgets\LangSelector;
 
 $items = MenuHelper::load('menu/footer', 'leftMenu', true);
 
