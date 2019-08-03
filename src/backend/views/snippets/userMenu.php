@@ -44,7 +44,7 @@ $identity = Yii::$app->user->identity;
 	        ]) ?>
         <?php } ?>
 		<p>
-			<?= \yii2module\account\module\helpers\Menu::getUseName() ?>
+			<?= \yii2bundle\account\module\helpers\Menu::getUseName() ?>
 		</p>
 	</li>
 	
