@@ -6,10 +6,14 @@
 * [Установка](install.md)
 * [CHANGELOG](platform-release.md) 
 
+## Установка приложения
+
+* [Установка](install-app-main.md)
+* [Хосты](install-app-host.md)
+
 ## Основное
 
 * [Введение](template-intro.md)
-* [Установка](template-install.md)
 * [Платформа](template-platform.md)
 * [Особенности шаблона](template-feature.md)
 * [Концепции разработки](template-development.md)
