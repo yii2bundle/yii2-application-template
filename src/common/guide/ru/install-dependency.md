@@ -1,13 +1,13 @@
 Зависимости
 ===
 
-Установить ``oauth-token`` от ``Github``
+Установить ``oauth-token`` от ``Github`` ([Генерация токена](https://github.com/settings/tokens/new?scopes=repo&description=Composer+token)).
 
 ```
 composer config -g github-oauth.github.com <токен>
 ```
 
-Удалить плагин ``Composer`` для зависимостей ``bower`` и ``npm``
+Если установлен `fxp/composer-asset-plugin`, то необходимо удалить его:
 
 ```
 composer global remove "fxp/composer-asset-plugin"

@@ -1,11 +1,17 @@
 Автотесты
 ===
 
-На этом этапе уже можно запускать автотесты:
+Проектные и пакетные тесты:
 
 ```
-cd vendor\yii2tool\yii2-vendor\bin
-php bin test/all
+cd vendor/yii2tool/yii2-vendor/bin
+php bin test/package
+php bin test/project
 ```
 
-Автотесты можно отложить на потом.
+АПИ тесты:
+
+```
+cd api
+php "../vendor/codeception/base/codecept" run
+```

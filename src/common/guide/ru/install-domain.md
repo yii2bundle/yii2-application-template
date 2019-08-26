@@ -3,6 +3,6 @@
 
 Назначить домены
 
-* API - api/web
-* админка - backend/web
-* сайт - frontend/web
+* API - `api.example.project` - `api/web`
+* админка - `admin.example.project` - `backend/web`
+* сайт - `web.example.project` - `frontend/web`
