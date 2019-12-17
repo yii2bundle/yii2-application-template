@@ -9,7 +9,7 @@
 Создать проект из шаблона:
 
 ```
-composer create-project --prefer-dist yii2tpl/yii2-clean .
+composer create-project --prefer-dist yii2tpl/app .
 ```
 
 Клонировать существующий проект:
