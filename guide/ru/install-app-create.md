@@ -8,9 +8,7 @@
 
 Создать проект из шаблона:
 
-```
-composer create-project --prefer-dist yii2tpl/app .
-```
+[Скачать архив](https://github.com/yii2tpl/app/archive/master.zip)
 
 Клонировать существующий проект:
 
